@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+}
+
+.add-todo {
+  display: flex;
+  padding: 5px;
+}
+
+.todo-item {
+  border: 1px solid black;
+  border-radius: 4px;
+  display: flex;
+  padding: 5px;
+  margin: 3px;
+}
+
+.todo-item.done span {
+  text-decoration: line-through;
+}
+
+.item-title {
+  flex: 1;
+  margin-right: 5px;
+}
+
+.action-button {
+  margin: 0 4px;
+}
